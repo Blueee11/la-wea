@@ -1,0 +1,73 @@
+body
+{
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+footer
+ {
+    background-color:#d0b5e5;
+    padding: 30px 0;
+    text-align: center;
+    color: rgb(14, 22, 57);
+}
+.Fondo{
+    background-image: url("Patitas.png");
+    background-repeat: repeat;
+    position: relative;
+    background-size: 5%;
+}
+.card
+{
+  height: 500px;
+  width: 450px;
+  margin: 10px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+  margin: 10px;
+  
+}
+.card-body
+{
+    height: 70px;
+    width: 550px;
+    padding: 6px;
+    box-sizing: border-box;
+    transition: .5s;
+    background: #d0b5e5;
+}
+h5
+{
+    margin: 10px;
+    font-size: 40px;
+}
+p
+{
+    visibility: hidden;
+    opacity: 0;
+}
+.a1
+{
+    margin:20px;
+    font-size: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+.card:hover
+{
+    cursor: pointer;
+}
+.card:hover .card-body
+{
+    height: 220px;
+}
+.card:hover p
+{
+    opacity: 1;
+    visibility: visible;
+}
+.card:hover a
+{
+    opacity: 1;
+    visibility: visible;
+}
