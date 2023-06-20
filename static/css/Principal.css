@@ -12,7 +12,7 @@ footer
     color: rgb(14, 22, 57);
 }
 .Fondo{
-    background-image: url("Patitas.png");
+    background-image: url('/static/img/Patitas.png');
     background-repeat: repeat;
     position: relative;
     background-size: 5%;
